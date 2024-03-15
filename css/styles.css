@@ -233,13 +233,25 @@ ul {
   gap: 24px;
 }
 
-.additional-info-class {
-  width: calc((100% - 72px) / 4);
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 .additional-info-title {
   margin-bottom: 8px;
 }
+
+.additional-info-class:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
 
 .portfolio-title {
   line-height: 1.11;
