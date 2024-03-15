@@ -8,6 +8,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+img {
+  display: block;
+}
+
 h2 {
   font-family: "Roboto", sans-serif;
   color: #2E2F42;
@@ -203,6 +207,11 @@ ul {
   background-color: #FFFFFF;
 }
 
+.additional-info {
+  padding: 120px 0 120px;
+
+}
+
 .additional-info-paragraph {
   font-size: 16px;
 }
@@ -219,7 +228,18 @@ ul {
   font-size: 16px;
 }
 
+.additional-info-list {
+  display: flex;
+  gap: 24px;
+}
 
+.additional-info-class {
+  width: calc((100% - 72px) / 4);
+}
+
+.additional-info-title {
+  margin-bottom: 8px;
+}
 
 .portfolio-title {
   line-height: 1.11;
