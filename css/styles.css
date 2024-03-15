@@ -42,6 +42,7 @@ h3 {
   text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .web-part {
@@ -65,7 +66,31 @@ h3 {
 .menu {
   font-weight: 500;
   color: #434455;
+  display: flex;
+  gap: 40px;
 }
+
+.menu .nav-link {
+  padding: 24px 0;
+}
+
+
+.menu li {
+  margin-right: 40px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.adress-ul {
+  display: flex;
+}
+
+.adress-ul li:not(:last-child) {
+  margin-right: 40px;
+}
+
 
 .adress-link:hover,
 .adress-link:focus {
@@ -234,4 +259,19 @@ ul {
 
 footer {
   background-color: #2E2F42;
+}
+
+.header-title {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-container {
+  display: flex;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
 }
