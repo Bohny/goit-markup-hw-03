@@ -230,25 +230,6 @@ ul {
   font-size: 16px;
 }
 
-.additional-info-list .team-list-title:nth-child(2n) > div,
-.additional-info-list .team-list-title:nth-child(2n) > h3,
-.additional-info-list .team-list-title:nth-child(2n) > p {
-  background-color: #f2f2f2; 
-}
-
-.additional-info-list .team-list-title > div {
-  padding: 32px 0;
-}
-
-.additional-info-list .team-list-title h3 {
-  text-align: center;
-  margin-bottom: 8px;
-}
-
-.additional-info-list .team-list-title p {
-  text-align: center;
-}
-
 
 .additional-info-title {
   margin-bottom: 8px;
@@ -321,7 +302,24 @@ ul {
 
 footer {
   background-color: #2E2F42;
+  padding: 100px 0;
 }
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer .footer-paragraph {
+  max-width: 264px;
+}
+
 
 .header-title {
   border-bottom: 1px solid #e7e9fc;
