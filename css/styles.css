@@ -240,10 +240,24 @@ ul {
   gap: 24px;
 }
 
-.additional-info-list .team-list-title 
-.additional-info-class {
+.additional-info-list .team-list-title {
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
+
+.additional-info-list .team-list-title > div {
+  padding: 32px 0;
+}
+
+.additional-info-list .team-list-title h3 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.additional-info-list .team-list-title p {
+  text-align: center;
+}
+
 
 .visually-hidden {
   position: absolute;
