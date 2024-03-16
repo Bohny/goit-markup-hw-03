@@ -230,6 +230,25 @@ ul {
   font-size: 16px;
 }
 
+.additional-info-list .team-list-title:nth-child(2n) > div,
+.additional-info-list .team-list-title:nth-child(2n) > h3,
+.additional-info-list .team-list-title:nth-child(2n) > p {
+  background-color: #f2f2f2; 
+}
+
+.additional-info-list .team-list-title > div {
+  padding: 32px 0;
+}
+
+.additional-info-list .team-list-title h3 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.additional-info-list .team-list-title p {
+  text-align: center;
+}
+
 
 .additional-info-title {
   margin-bottom: 8px;
@@ -241,7 +260,7 @@ ul {
 }
 
 .team-list-title {
-  flex-basis: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
