@@ -199,12 +199,14 @@ ul {
 .our-team {
   background-color: #F4F4FD;
   font-size: 16px;
+  padding: 120px 0 120px;
 }
 
 .our-team-title {
   line-height: 1.11;
   text-transform: capitalize;
   background-color: #FFFFFF;
+  margin-bottom: 72px;
 }
 
 .additional-info {
@@ -228,10 +230,20 @@ ul {
   font-size: 16px;
 }
 
+
+.additional-info-title {
+  margin-bottom: 8px;
+}
+
+.additional-info-class:first-child {
+  width: calc((100% - 72px) / 4);
+}
+
 .additional-info-list {
   display: flex;
   gap: 24px;
 }
+
 
 .visually-hidden {
   position: absolute;
@@ -242,14 +254,6 @@ ul {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-}
-
-.additional-info-title {
-  margin-bottom: 8px;
-}
-
-.additional-info-class:first-child {
-  width: calc((100% - 72px) / 4);
 }
 
 
