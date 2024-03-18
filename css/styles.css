@@ -230,18 +230,17 @@ ul {
   font-size: 16px;
 }
 
-
-.additional-info-title {
-  margin-bottom: 8px;
-}
-
 .additional-info-list {
   display: flex;
   gap: 24px;
 }
 
-.additional-conteriner {
+.additional-info-class {
   width: calc((100% - 72px) / 4);
+}
+
+.additional-info-subtitle {
+  margin-bottom: 8px;
 }
 
 .team-list-title {
@@ -267,10 +266,12 @@ ul {
   width: 1px;
   height: 1px;
   margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 
