@@ -47,6 +47,8 @@ h3 {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .web-part {
@@ -359,11 +361,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.footer .logo {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer .footer-paragraph {
