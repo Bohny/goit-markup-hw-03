@@ -154,9 +154,9 @@ ul {
   cursor: pointer;
 }
 
-.container {
+/* .container {
   margin: 0 auto;
-}
+} */
 
 .section-button {
   background-color: #4D5AE5;
@@ -373,8 +373,6 @@ footer {
 .header-container {
   display: flex;
   width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
 }
 
 .header-nav {
@@ -393,8 +391,6 @@ ul, ol {
 
 .container {
   max-width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto; 
-  margin-right: auto;
-  }
+  padding: 0 15px;
+  margin: 0 auto;
+}
